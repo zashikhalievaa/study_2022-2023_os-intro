@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторная работа №4 - GNS3</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .slide {
+            background: white;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            page-break-after: always;
+        }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; }
+        img {
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+        .lead { text-align: center; }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Слайд 1 -->
+    <div class="slide lead">
+        <h1>Лабораторная работа №4</h1>
+        <h2>Подготовка экспериментального стенда GNS3</h2>
+        <p><strong>Выполнила:</strong> Шихалиева Зурият Арсеновна</p>
+        <p><strong>Группа:</strong> Нпи6д03-23</p>
+    </div>
+
+    <!-- Слайд 2 -->
+    <div class="slide">
+        <h2>Цели работы</h2>
+        <ul>
+            <li>Установить GNS3-all-in-one и GNS3 VM</li>
+            <li>Проверить корректность запуска</li>
+            <li>Импортировать образ маршрутизатора FRR</li>
+            <li>Импортировать образ маршрутизатора VyOS</li>
+        </ul>
+    </div>
+
+    <!-- Слайд 3 -->
+    <div class="slide">
+        <h2>Загрузка GNS3</h2>
+        <img src="images/photo1.jpg" alt="Загрузка GNS3">
+        <p>Загрузка файлов GNS3-all-in-one и GNS3 VM</p>
+    </div>
+
+    <!-- Слайд 4 -->
+    <div class="slide">
+        <h2>Мастер установки</h2>
+        <img src="images/photo2.jpg" alt="Мастер установки">
+        <p>Запуск установочного мастера GNS3</p>
+    </div>
+
+    <!-- Слайд 5 -->
+    <div class="slide">
+        <h2>Выбор компонентов</h2>
+        <img src="images/photo3.jpg" alt="Выбор компонентов">
+        <p>Выбор компонентов для установки</p>
+    </div>
+
+    <!-- Слайд 6 -->
+    <div class="slide">
+        <h2>Выбор VirtualBox</h2>
+        <img src="images/photo4.jpg" alt="Выбор VirtualBox">
+        <p>Выбор платформы виртуализации</p>
+    </div>
+
+    <!-- Слайд 7 -->
+    <div class="slide">
+        <h2>Импорт виртуальной машины</h2>
+        <img src="images/photo5.jpg" alt="Импорт VM">
+        <p>Импорт GNS3 VM в VirtualBox</p>
+    </div>
+
+    <!-- Слайд 8 -->
+    <div class="slide">
+        <h2>Включение виртуализации</h2>
+        <img src="images/photo6.jpg" alt="Виртуализация">
+        <p>Включение вложенной виртуализации</p>
+    </div>
+
+    <!-- Слайд 9 -->
+    <div class="slide">
+        <h2>Настройка сети</h2>
+        <img src="images/photo7.jpg" alt="Сетевой адаптер">
+        <p>Настройка сетевого адаптера</p>
+    </div>
+
+    <!-- Слайд 10 -->
+    <div class="slide">
+        <h2>Настройка DHCP</h2>
+        <img src="images/photo8.jpg" alt="DHCP-сервер">
+        <p>Настройка DHCP-сервера</p>
+    </div>
+
+    <!-- Слайд 11 -->
+    <div class="slide">
+        <h2>Запуск GNS3 VM</h2>
+        <img src="images/photo9.jpg" alt="Запуск VM">
+        <p>Запуск виртуальной машины</p>
+    </div>
+
+    <!-- Слайд 12 -->
+    <div class="slide">
+        <h2>Настройка сервера</h2>
+        <img src="images/photo10.jpg" alt="Локальный сервер">
+        <p>Настройка локального сервера GNS3</p>
+    </div>
+
+    <!-- Слайд 13 -->
+    <div class="slide">
+        <h2>Создание шаблона</h2>
+        <img src="images/photo11.jpg" alt="Новый шаблон">
+        <p>Создание нового шаблона устройства</p>
+    </div>
+
+    <!-- Слайд 14 -->
+    <div class="slide">
+        <h2>Выбор FRR</h2>
+        <img src="images/photo12.jpg" alt="Выбор FRR">
+        <p>Выбор образа маршрутизатора FRR</p>
+    </div>
+
+    <!-- Слайд 15 -->
+    <div class="slide">
+        <h2>Версия FRR</h2>
+        <img src="images/photo13.jpg" alt="Версия FRR">
+        <p>Выбор версии FRR 8.2.2</p>
+    </div>
+
+    <!-- Слайд 16 -->
+    <div class="slide">
+        <h2>Настройка FRR</h2>
+        <img src="images/photo15.jpg" alt="Настройка FRR">
+        <p>Настройка параметров FRR</p>
+    </div>
+
+    <!-- Слайд 17 -->
+    <div class="slide">
+        <h2>Выбор VyOS</h2>
+        <img src="images/photo16.jpg" alt="Выбор VyOS">
+        <p>Выбор образа VyOS</p>
+    </div>
+
+    <!-- Слайд 18 -->
+    <div class="slide">
+        <h2>Результаты установки</h2>
+        <img src="images/photo17.jpg" alt="Установленные образы">
+        <p>Успешно установлены FRR и VyOS</p>
+    </div>
+
+    <!-- Слайд 19 -->
+    <div class="slide">
+        <h2>Выводы</h2>
+        <ul>
+            <li>✅ GNS3 успешно установлен и настроен</li>
+            <li>✅ Виртуальная машина запущена корректно</li>
+            <li>✅ Образы маршрутизаторов импортированы</li>
+            <li>✅ Стенд готов к работе</li>
+        </ul>
+    </div>
+
+    <!-- Слайд 20 -->
+    <div class="slide lead">
+        <h1>Спасибо за внимание!</h1>
+        <p>Вопросы?</p>
+        <div class="footer">
+            Шихалиева Зурият Арсеновна | Нпи6д03-23
+        </div>
+    </div>
+</body>
+</html>
